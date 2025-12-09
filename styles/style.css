@@ -67,14 +67,10 @@ ol {
 
 .search-form {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .search-form__fieldset {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   border: none;
 }
 
@@ -252,6 +248,7 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+  outline: none;
 }
 
 .content__card-link:hover {
